@@ -17,20 +17,7 @@ A secure REST API for managing orders with robust logging, error handling, authe
 - MongoDB Atlas account
 - npm or yarn package manager
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/D24IT145-JayGundaraniya/Order-Management-System.git
-cd order-management-system
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Create a `.env` file in the root directory with the following variables:
+1. Create a `.env` file in the root directory with the following variables:
 ```env
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
@@ -39,12 +26,12 @@ NODE_ENV=development
 CLIENT_URL=http://localhost:3000
 ```
 
-4. Start the development server:
+2. Start the development server:
 ```bash
 npm run dev
 ```
 
-2. Follow the testing steps in the collection:
+3. Follow the testing steps in the collection:
    - Register a new user
    - Login with the created credentials
    - Create an order
